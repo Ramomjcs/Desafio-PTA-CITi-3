@@ -1,0 +1,116 @@
+.hotdog {
+    margin-bottom: 109px;
+}
+
+
+.containerHotdog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerHotdogInterno {
+    height: 269px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+.imagemHotdog {
+    max-width: 300px;
+}
+
+.nome {
+    top: 471px;
+    left: 398px;
+    height: 44px;
+    text-align: left;
+    font: Bold 36px/44px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 10px;
+    margin-top:26px;
+}
+
+.desc {
+    
+    top: 525px;
+    left: 398px;
+    width: 1002px;
+    height: 80px;
+    text-align: left;
+    font-size:30px;
+    font-weight: normal;
+    font: Regular 30px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 10px;
+    
+}
+
+.preco {
+    top: 615px;
+    left: 398px;
+    width: 233px;
+    height: 73px; 
+    text-align: left;
+    font-size:60px;
+    font-weight: 600;
+    font: SemiBold 60px Montserrat;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.forabtn {
+    width: 460px;
+    display: flex;
+    height: 269px;
+    align-items: center;
+    justify-content: center;
+}
+
+.adicionar {
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+.botaoAdicionar {
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 49px;
+    left: 1536px;
+    width: 324px;
+    height: 80px;
+    background: #F9C202 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #00000069;
+    border-radius: 51px;
+    opacity: 1;
+    border: none;
+    font-weight: 500;
+}
+
+.divisor {
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 1200px){
+    .containerHotdog {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
