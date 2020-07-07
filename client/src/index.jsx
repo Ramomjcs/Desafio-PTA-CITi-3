@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 
 import {
   Example, Teste, Navbar, Search, Hotdog, Footer,
 } from './components';
-
+import axios from 'axios'
 import './index.css';
 
+
+
+
 function App() {
+  
   return (
     <section className="app">
       <Navbar />
@@ -16,6 +20,7 @@ function App() {
         <div><Search/></div>
       </div>
       <Hotdog />
+
       <Footer />
     </section>
   );

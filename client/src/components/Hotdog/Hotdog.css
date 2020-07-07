@@ -98,6 +98,7 @@
     opacity: 1;
     border: none;
     font-weight: 500;
+    outline: none;
 }
 
 .divisor {
@@ -112,5 +113,58 @@
         display: flex;
         flex-direction: column;
     }
+    .nome {
+        text-align: center;
+    }
+    .desc{
+        text-align: center;
+        width: 0px;
+    }
+    .preco{
+        text-align: center;
+        
+        width: 0px;
+    }
+    .adicionar {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .forabtn {
+        margin-right:0px;
+    }
     
+}
+
+@media (max-width: 1360px) {
+
+    .forabtn {
+        margin-right:0px;
+    }
+
+    .desc {
+        width: 00px;
+    }
+    .preco{
+        text-align: center;
+        
+        width: 0px;
+    }
+
+}
+
+@media (max-width: 1830px)
+{
+    .desc {
+        width: auto;
+        font-size:20px;
+    }
+
+    .descricao{
+        width: 500px;
+        height: 269px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
 }

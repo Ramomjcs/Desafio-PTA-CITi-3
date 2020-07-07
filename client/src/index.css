@@ -39,3 +39,16 @@
     opacity: 1;
     margin-bottom: 60px;
 }
+
+@media (max-width: 1200px) {
+    #cardapiotexto {
+        margin-left: 0px;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+    .app {
+        margin-right: 0px;
+         margin-left: 0px;
+    }
+}

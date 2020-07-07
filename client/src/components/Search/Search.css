@@ -1,0 +1,18 @@
+#campo {
+    width: 450px;
+    border-radius: 15px;
+    height: 35px;
+    outline: none;
+    font-size: 25px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+
+@media (max-width: 1200px) {
+    #campo {
+        width: 350px;
+        
+    }
+}
